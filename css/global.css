@@ -1,0 +1,14 @@
+/* Global */
+@import "../css/estilos.css";
+
+/* Header */
+@import "../css/header.css";
+
+/* Home */
+@import "../css/introducao.css";
+@import "../css/about.css";
+@import "../css/education.css";
+@import "../css/skills.css";
+
+/* Footer */
+@import "../css/footer.css";

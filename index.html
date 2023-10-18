@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Gonçalves</title>
+
+  <!-- Font -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,400&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Script -->
+  <script src="https://kit.fontawesome.com/52730b3fe6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Background animation-->
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="header container">
+      <a href="./index.html" class="header__title">PG<span class="dot">.</span></a>
+
+      <!-- Menu -->
+      <nav>
+        <ul class="header__menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Intro console text -->
+  <main>
+    <div class="intro">
+      <div class='console-container animate__animated animate__fadeInDown'><span id='text'></span>
+        <div class='console-underscore' id='console'>&#95;</div>
+      </div>
+
+      <!-- Intro image -->
+      <div class="intro__image container animate__animated animate__fadeInDown">
+        <picture>
+          <source media="max-width: 612px" srcset="./img/profile-pic-1.png">
+          <img src="./img/profile-pic-1.png" width="612" height="612" alt="Front-end developer Pedro Gonçalves image">
+        </picture>
+      </div>
+
+      <!-- Intro socials -->
+      <div class="intro__socials animate__animated animate__fadeInDown">
+        <a href="https://github.com/devpedromgoncalves" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/pedrojmgoncalves/" target="_blank"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+
+      <!-- CV button-->
+      <div class="button__container animate__animated animate__fadeInDown">
+        <button class="button">
+          <a href="https://resume.io/r/RTdjUsRF7" target="_blank">Check my CV</a>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- About me section -->
+  <section class="about" id="about" aria-label="about">
+    <h1 class="about__title container" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">About<span
+        class="dot">.</span></h1>
+    <div class="about__paragraph" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+      <p>My name is <strong>Pedro Gonçalves</strong> and I'm currently working as a <strong><span class="underline__word">Junior Software Developer</span></strong>.<br>
+        My qualities include a constant desire to learn, a great affinity for teamwork, the ability to independently
+        solve daily problems, and effective communication skills.<br>
+        I always try to stay up-to-date with the latest technology trends, ready to take on new challenges and
+        contribute to successful projects.<br>
+      </p>
+    </div>
+  </section>
+
+  <!-- Education section -->
+  <section class="education" id="education" aria-label="education">
+    <h1 class="education__title container" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+      Education<span class="dot">.</span></h1>
+    <div class="education__paragraph" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+      <p>Until I got my current job, everything I learnt was by myself through online courses.<br>
+        As knowledge does not take up space, I continue my educational journey to become a better programmer every day.
+      </p>
+
+      <ul class="online__education">
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/e9dd43d4-a2dd-4b27-8496-bc16a886f62d?lang=pt_BR"
+            target="_blank">
+            <h3 class="online__course">HTML & CSS</h3>
+            <img src="./img/html.png" alt="logotipo html" width="26px" height="26px">
+            <img src="./img/css.png" alt="logotipo css" width="26px" height="26px">
+          </a>
+        </li>
+
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/c3894c57-88e4-4411-bec3-b48348a222ea"
+          target="_blank">
+          <h3 class="online__course">Front-End</h3>
+          <img src="./img/frontend.png" alt="logotipo frontend" width="26px" height="26px">
+          </a>
+        </li>
+
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/0c6d4bc4-c116-47cc-8854-25b90c843eb5">
+            <h3 class="online__course">JavaScript</h3>
+            <img src="./img/js.png" alt="logotipo javascript" width="26px" height="26px">
+          </a>
+        </li>
+      </ul>
+
+      <ul class="online__education">
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/ad42fda1-1629-49f8-969b-128169790de8">
+            <h3 class="online__course">JavaScript: Back-End</h3>
+            <img src="./img/js.png" alt="logotipo javascript" width="26px" height="26px">
+          </a>
+        </li>
+
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/b0e8270f-ac75-4824-9cae-286344f47975">
+            <h3 class="online__course">Angular</h3>
+            <img src="./img/angular.png" alt="logotipo angular" width="26px" height="26px">
+          </a>
+        </li>
+
+
+        <li class="education__courses">
+          <a href="https://cursos.alura.com.br/degree/certificate/afd49a12-92bc-471a-bf53-ec6233d42752">
+            <h3 class="online__course">ASP.NET Core: C#</h3>
+            <img src="./img/dotnet.png" alt="logotipo C#" width="36px" height="36px">
+          </a>
+        </li>
+      </ul>
+
+      <div class="idiomas container">
+        <h3>Languages</h3>
+        <ul>
+          <li>Portuguese<span>/ Native</span></li>
+          <li>English<span>/ Advanced</span></li>
+          <li>Spanish <span>/ Basic</span></li>
+        </ul>
+      </div>
+  </section>
+
+  <!-- Skills paragraph section -->
+  <section class="skills" id="skills" aria-label="skills">
+    <h1 class="skills__title container" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Skills<span
+        class="dot">.</span></h1>
+    <div class="skills__paragraph" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+      <p>Throughout my learning journey, I have dedicated my time to a variety of courses and personal projects, all
+        with the aim of enhancing my programming skills and exploring new languages.</p>
+      <p>I have developed a few websites using <strong>HTML</strong>, <strong>CSS</strong> &
+        <strong>JavaScript</strong>.<br>
+        You can see some of my creations below.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills images section-->
+  <section class="skills__images container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+    <div class="skills__image">
+      <a href="https://devpedromgoncalves.github.io/bikcraft/" target="blank">
+          <img src="./img/bikcraft.png" alt="Portfolio image of Bikcraft website">
+      </a>
+    </div>
+
+    <div class="skills__image">
+      <a href="https://devpedromgoncalves.github.io/uxuiportfolio/" target="blank">
+          <img src="./img/lobo.png" alt="Portfolio image of Lobo website">
+        <h3></h3>
+      </a>
+    </div>
+
+    <div class="skills__image">
+      <a href="https://devpedromgoncalves.github.io/alurabooks/" target="blank">
+          <img src="./img/alurabooks.png" alt="Portfolio image of AluraBooks website">
+        <h3></h3>
+      </a>
+    </div>
+
+    <div class="skills__image">
+      <a href="https://devpedromgoncalves.github.io/aluraplay/" target="blank">
+          <img src="./img/aluraplay.png" alt="Portfolio image of AluraPlay website">
+        <h3></h3>
+      </a>
+    </div>
+
+    <div class="skills__image">
+      <a href="https://devpedromgoncalves.github.io/aluraplay/" target="blank">
+          <img src="./img/fokus.jpeg" alt="Portfolio image of AluraPlay website">
+        <h3></h3>
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="footer" id="contact">
+    <h2 class="footer__question-title container" data-aos="fade-up" data-aos-delay="100"
+      data-aos-anchor-placement="center-center">Did you enjoy what you see?</h2>
+    <div class="footer__container container">
+      <p class="footer__text"><span class="underline__word">I'm available</span> for new projects at this moment. <br>
+        Feel free to contact me and we schedule a call.👋</p>
+      <ul class="footer__contact container">
+        <li><a href="mailto:dev.pedromgoncalves@gmail.com">dev.pedromgoncalves@gmail.com</li></a>
+        <li><a href="tel.:+351965065938">+351965065938</li></a>
+      </ul>
+      <p class="footer__copy container">Made by Pedro Gonçalves. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
